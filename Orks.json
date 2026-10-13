@@ -1,13 +1,13 @@
 {
   "catalogue": {
-    "name": "Orks (Unofficial HH3, Specialist Detachments v0.3)",
+    "name": "Orks (Unofficial HH3, Support Diagnostic v0.4)",
     "id": "ace1-0a77-0e43-0b4a",
     "authorName": "Unofficial PDF by Always Strikes First; experimental roster transcription by ChatGPT",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
-    "gameSystemRevision": 57,
+    "gameSystemRevision": 58,
     "library": false,
-    "revision": 3,
+    "revision": 4,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "entryLinks": [
@@ -426,7 +426,8 @@
             "primary": false,
             "targetId": "1c79-ecdf-9a64-84c9"
           }
-        ]
+        ],
+        "import": true
       },
       {
         "name": "Loota Mob",
@@ -447,7 +448,8 @@
             "primary": false,
             "targetId": "1c79-ecdf-9a64-84c9"
           }
-        ]
+        ],
+        "import": true
       },
       {
         "name": "Killa Kan Mob",
@@ -474,7 +476,8 @@
             "primary": false,
             "targetId": "356f-600f-b6d7-5612"
           }
-        ]
+        ],
+        "import": true
       },
       {
         "name": "Tankbusta Mob",
@@ -495,7 +498,8 @@
             "primary": false,
             "targetId": "1c79-ecdf-9a64-84c9"
           }
-        ]
+        ],
+        "import": true
       },
       {
         "name": "Big Gunz Battery",
@@ -516,7 +520,8 @@
             "primary": false,
             "targetId": "1c79-ecdf-9a64-84c9"
           }
-        ]
+        ],
+        "import": true
       },
       {
         "name": "Deff Dread",
@@ -10160,6 +10165,21 @@
             "description": "Unofficial Orks 3rd Edition PDF, page 24. This prototype calculates base unit and additional model costs. Check the PDF for the complete wargear, restrictions, clan effects, special rules and profiles.",
             "hidden": false
           }
+        ],
+        "import": true,
+        "categoryLinks": [
+          {
+            "name": "Support",
+            "id": "3b30-1eb6-336d-54e6",
+            "primary": true,
+            "targetId": "345f-9ba6-9b02-ed5c"
+          },
+          {
+            "name": "Prime Support",
+            "id": "08a7-0ff7-7c24-5e25",
+            "primary": false,
+            "targetId": "1c79-ecdf-9a64-84c9"
+          }
         ]
       },
       {
@@ -10575,6 +10595,21 @@
             "description": "Unofficial Orks 3rd Edition PDF, page 24. This prototype calculates base unit and additional model costs. Check the PDF for the complete wargear, restrictions, clan effects, special rules and profiles.",
             "hidden": false
           }
+        ],
+        "import": true,
+        "categoryLinks": [
+          {
+            "name": "Support",
+            "id": "0a86-7ed5-5645-592c",
+            "primary": true,
+            "targetId": "345f-9ba6-9b02-ed5c"
+          },
+          {
+            "name": "Prime Support",
+            "id": "04c5-b2cf-7cf4-5ff3",
+            "primary": false,
+            "targetId": "1c79-ecdf-9a64-84c9"
+          }
         ]
       },
       {
@@ -10904,6 +10939,21 @@
             "id": "b58f-ec95-a37e-5658",
             "description": "Unofficial Orks 3rd Edition PDF, page 25. This prototype calculates base unit and additional model costs. Check the PDF for the complete wargear, restrictions, clan effects, special rules and profiles.",
             "hidden": false
+          }
+        ],
+        "import": true,
+        "categoryLinks": [
+          {
+            "name": "Support",
+            "id": "c371-b5a8-938f-5af9",
+            "primary": true,
+            "targetId": "345f-9ba6-9b02-ed5c"
+          },
+          {
+            "name": "Prime Support",
+            "id": "3031-da04-30da-5431",
+            "primary": false,
+            "targetId": "1c79-ecdf-9a64-84c9"
           }
         ]
       },
@@ -11342,6 +11392,21 @@
             "id": "d26e-fc87-1cb9-5bf2",
             "description": "Unofficial Orks 3rd Edition PDF, page 25. This prototype calculates base unit and additional model costs. Check the PDF for the complete wargear, restrictions, clan effects, special rules and profiles.",
             "hidden": false
+          }
+        ],
+        "import": true,
+        "categoryLinks": [
+          {
+            "name": "Support",
+            "id": "b0af-48f7-de60-59e9",
+            "primary": true,
+            "targetId": "345f-9ba6-9b02-ed5c"
+          },
+          {
+            "name": "Prime Support",
+            "id": "2f8d-131d-f8c7-56b7",
+            "primary": false,
+            "targetId": "1c79-ecdf-9a64-84c9"
           }
         ]
       },
@@ -11840,6 +11905,21 @@
             "id": "5942-48e9-a1ae-5fc4",
             "description": "Unofficial Orks 3rd Edition PDF, page 26. This prototype calculates base unit and additional model costs. Check the PDF for the complete wargear, restrictions, clan effects, special rules and profiles.",
             "hidden": false
+          }
+        ],
+        "import": true,
+        "categoryLinks": [
+          {
+            "name": "Support",
+            "id": "20df-ae9f-7343-50f4",
+            "primary": true,
+            "targetId": "345f-9ba6-9b02-ed5c"
+          },
+          {
+            "name": "Prime Support",
+            "id": "185b-b77c-00c6-5f5f",
+            "primary": false,
+            "targetId": "1c79-ecdf-9a64-84c9"
           }
         ]
       },
