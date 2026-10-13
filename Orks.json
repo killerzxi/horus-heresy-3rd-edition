@@ -1,13 +1,13 @@
 {
   "catalogue": {
-    "name": "Orks (Unofficial HH3, Prototype)",
+    "name": "Orks (Unofficial HH3, Crusade Test v0.2)",
     "id": "ace1-0a77-0e43-0b4a",
     "authorName": "Unofficial PDF by Always Strikes First; experimental roster transcription by ChatGPT",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
-    "gameSystemRevision": 55,
+    "gameSystemRevision": 56,
     "library": false,
-    "revision": 1,
+    "revision": 2,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "entryLinks": [
@@ -23,6 +23,12 @@
             "id": "b6d6-fbe8-8aa3-5b15",
             "primary": true,
             "targetId": "d9a6-9b5f-b18a-4d63"
+          },
+          {
+            "name": "+1 Apex from High Command",
+            "id": "e33e-1e95-6e21-5c0b",
+            "targetId": "8a97-1585-93e7-c561",
+            "primary": false
           }
         ]
       },
@@ -38,6 +44,12 @@
             "id": "b88e-ae3e-4ffa-54f6",
             "primary": true,
             "targetId": "d9a6-9b5f-b18a-4d63"
+          },
+          {
+            "name": "+1 Apex from High Command",
+            "id": "4825-c443-f70c-5afb",
+            "targetId": "8a97-1585-93e7-c561",
+            "primary": false
           }
         ]
       },
@@ -53,6 +65,12 @@
             "id": "a208-327c-2c3b-57dc",
             "primary": true,
             "targetId": "d9a6-9b5f-b18a-4d63"
+          },
+          {
+            "name": "+1 Apex from High Command",
+            "id": "186b-00bf-5b46-5c2c",
+            "targetId": "8a97-1585-93e7-c561",
+            "primary": false
           }
         ]
       },
