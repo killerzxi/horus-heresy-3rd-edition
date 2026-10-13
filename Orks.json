@@ -1,13 +1,13 @@
 {
   "catalogue": {
-    "name": "Orks (Unofficial HH3, Crusade Test v0.2)",
+    "name": "Orks (Unofficial HH3, Specialist Detachments v0.3)",
     "id": "ace1-0a77-0e43-0b4a",
     "authorName": "Unofficial PDF by Always Strikes First; experimental roster transcription by ChatGPT",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
-    "gameSystemRevision": 56,
+    "gameSystemRevision": 57,
     "library": false,
-    "revision": 2,
+    "revision": 3,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "entryLinks": [
@@ -281,6 +281,24 @@
             "id": "669b-b6fc-2482-5103",
             "primary": true,
             "targetId": "3235-bd79-e9b1-60fa"
+          },
+          {
+            "name": "Prime Heavy Assault",
+            "id": "c2d2-7bcf-7fb8-5db0",
+            "primary": false,
+            "targetId": "1e95-35f0-1353-ffa1"
+          },
+          {
+            "name": "Deffwing: Prime Heavy Assault (Meganobz Only)",
+            "id": "9a31-4a3a-12c8-5cac",
+            "primary": false,
+            "targetId": "cf29-7442-d4f0-50a6"
+          },
+          {
+            "name": "Deffwing: Heavy Assault (Meganobz Only)",
+            "id": "5464-3ad6-8d46-55cb",
+            "primary": false,
+            "targetId": "64cd-f6db-2418-593a"
           }
         ]
       },
@@ -296,6 +314,12 @@
             "id": "0533-3b6c-d61f-50ce",
             "primary": true,
             "targetId": "3235-bd79-e9b1-60fa"
+          },
+          {
+            "name": "Prime Heavy Assault",
+            "id": "23f5-c28b-0ba5-57b3",
+            "primary": false,
+            "targetId": "1e95-35f0-1353-ffa1"
           }
         ]
       },
@@ -311,6 +335,12 @@
             "id": "4f7a-9d0e-57e8-5d5a",
             "primary": true,
             "targetId": "88e6-d373-4152-0dd8"
+          },
+          {
+            "name": "Prime Troops",
+            "id": "fa60-9276-2c57-547a",
+            "primary": false,
+            "targetId": "c3f9-a7f3-984b-3fda"
           }
         ]
       },
@@ -326,6 +356,12 @@
             "id": "4440-c2fd-f02e-5928",
             "primary": true,
             "targetId": "88e6-d373-4152-0dd8"
+          },
+          {
+            "name": "Prime Troops",
+            "id": "bf24-a12e-c94f-573d",
+            "primary": false,
+            "targetId": "c3f9-a7f3-984b-3fda"
           }
         ]
       },
@@ -341,6 +377,12 @@
             "id": "ff84-cd52-4df2-5783",
             "primary": true,
             "targetId": "88e6-d373-4152-0dd8"
+          },
+          {
+            "name": "Prime Troops",
+            "id": "d07c-2623-d661-5f9a",
+            "primary": false,
+            "targetId": "c3f9-a7f3-984b-3fda"
           }
         ]
       },
@@ -356,6 +398,12 @@
             "id": "c35f-b812-e093-5066",
             "primary": true,
             "targetId": "88e6-d373-4152-0dd8"
+          },
+          {
+            "name": "Prime Troops",
+            "id": "8b10-7e9d-10e1-5a67",
+            "primary": false,
+            "targetId": "c3f9-a7f3-984b-3fda"
           }
         ]
       },
@@ -371,6 +419,12 @@
             "id": "cb97-1825-8cc2-5eaf",
             "primary": true,
             "targetId": "345f-9ba6-9b02-ed5c"
+          },
+          {
+            "name": "Prime Support",
+            "id": "7b40-89c4-3edb-53c2",
+            "primary": false,
+            "targetId": "1c79-ecdf-9a64-84c9"
           }
         ]
       },
@@ -386,6 +440,12 @@
             "id": "12d6-8d28-f7af-59ce",
             "primary": true,
             "targetId": "345f-9ba6-9b02-ed5c"
+          },
+          {
+            "name": "Prime Support",
+            "id": "54a9-6ecc-9703-5a67",
+            "primary": false,
+            "targetId": "1c79-ecdf-9a64-84c9"
           }
         ]
       },
@@ -401,6 +461,18 @@
             "id": "40ac-0322-8cd0-5ee0",
             "primary": true,
             "targetId": "345f-9ba6-9b02-ed5c"
+          },
+          {
+            "name": "Prime Support",
+            "id": "2750-a0b5-3d86-51bd",
+            "primary": false,
+            "targetId": "1c79-ecdf-9a64-84c9"
+          },
+          {
+            "name": "Dread Mob: Support (Killa Kans Only)",
+            "id": "5a12-b695-695b-53d5",
+            "primary": false,
+            "targetId": "356f-600f-b6d7-5612"
           }
         ]
       },
@@ -416,6 +488,12 @@
             "id": "306e-ab81-1a75-52f9",
             "primary": true,
             "targetId": "345f-9ba6-9b02-ed5c"
+          },
+          {
+            "name": "Prime Support",
+            "id": "0407-d615-5b9d-5a8d",
+            "primary": false,
+            "targetId": "1c79-ecdf-9a64-84c9"
           }
         ]
       },
@@ -431,6 +509,12 @@
             "id": "61a4-a2c6-fb52-52fa",
             "primary": true,
             "targetId": "345f-9ba6-9b02-ed5c"
+          },
+          {
+            "name": "Prime Support",
+            "id": "c0f8-286a-80f8-5fc4",
+            "primary": false,
+            "targetId": "1c79-ecdf-9a64-84c9"
           }
         ]
       },
@@ -551,6 +635,12 @@
             "id": "e5bb-83bd-ceff-5dbf",
             "primary": true,
             "targetId": "2b65-a3f2-620a-dc58"
+          },
+          {
+            "name": "Kult of Speed: Recon (Deffkoptas Only)",
+            "id": "af67-170c-7986-5b09",
+            "primary": false,
+            "targetId": "986c-1fe8-5536-55da"
           }
         ]
       },
@@ -581,6 +671,12 @@
             "id": "422f-43a5-92b1-5cb2",
             "primary": true,
             "targetId": "cf96-8891-3f9a-8921"
+          },
+          {
+            "name": "Prime Fast Attack",
+            "id": "d384-a26b-2f4f-506c",
+            "primary": false,
+            "targetId": "c291-144b-3da6-37ed"
           }
         ]
       },
@@ -596,6 +692,12 @@
             "id": "fd91-3fc5-c701-53e8",
             "primary": true,
             "targetId": "cf96-8891-3f9a-8921"
+          },
+          {
+            "name": "Prime Fast Attack",
+            "id": "4f37-4d29-0db0-5fa5",
+            "primary": false,
+            "targetId": "c291-144b-3da6-37ed"
           }
         ]
       },
@@ -611,6 +713,12 @@
             "id": "46fd-8a9a-8e50-5768",
             "primary": true,
             "targetId": "cf96-8891-3f9a-8921"
+          },
+          {
+            "name": "Prime Fast Attack",
+            "id": "8222-405b-cc3a-530c",
+            "primary": false,
+            "targetId": "c291-144b-3da6-37ed"
           }
         ]
       },
@@ -626,6 +734,12 @@
             "id": "e5f7-f780-6b83-5638",
             "primary": true,
             "targetId": "cf96-8891-3f9a-8921"
+          },
+          {
+            "name": "Prime Fast Attack",
+            "id": "66bf-26cd-357b-5f98",
+            "primary": false,
+            "targetId": "c291-144b-3da6-37ed"
           }
         ]
       },
@@ -641,6 +755,12 @@
             "id": "0dd2-aaa5-4009-5cc2",
             "primary": true,
             "targetId": "cf96-8891-3f9a-8921"
+          },
+          {
+            "name": "Prime Fast Attack",
+            "id": "f977-3605-9cf0-55c1",
+            "primary": false,
+            "targetId": "c291-144b-3da6-37ed"
           }
         ]
       },

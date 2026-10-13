@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
     "battleScribeVersion": 2.03,
-    "revision": 56,
+    "revision": 57,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -2443,6 +2443,26 @@
       {
         "name": "Prosperine Sorcerer",
         "id": "04b3-9ebe-bf51-20f2",
+        "hidden": false
+      },
+      {
+        "name": "Deffwing: Prime Heavy Assault (Meganobz Only)",
+        "id": "cf29-7442-d4f0-50a6",
+        "hidden": false
+      },
+      {
+        "name": "Deffwing: Heavy Assault (Meganobz Only)",
+        "id": "64cd-f6db-2418-593a",
+        "hidden": false
+      },
+      {
+        "name": "Dread Mob: Support (Killa Kans Only)",
+        "id": "356f-600f-b6d7-5612",
+        "hidden": false
+      },
+      {
+        "name": "Kult of Speed: Recon (Deffkoptas Only)",
+        "id": "986c-1fe8-5536-55da",
         "hidden": false
       }
     ],
@@ -91479,6 +91499,752 @@
                     "name": "Detachment Composition",
                     "$text": "1 Command\n2 Troops\n1 Support\n1 Fast Attack\nSlots in this detachment may only be filled with Units from the Daemons of Tzeench Army list\n",
                     "typeId": "ec3f-877b-f887-18b2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Apex - Deffwing",
+            "id": "08ae-2780-2056-5859",
+            "hidden": true,
+            "comment": "Orks (unofficial) PDF page 4",
+            "sortIndex": 91,
+            "categoryLinks": [
+              {
+                "name": "Deffwing: Prime Heavy Assault (Meganobz Only)",
+                "id": "0071-c1df-e5e7-5d9c",
+                "hidden": false,
+                "targetId": "cf29-7442-d4f0-50a6",
+                "constraints": [
+                  {
+                    "id": "0782-ec4c-2ff5-5236",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Deffwing: Heavy Assault (Meganobz Only)",
+                "id": "39b9-cfb3-fb9a-5308",
+                "hidden": false,
+                "targetId": "64cd-f6db-2418-593a",
+                "constraints": [
+                  {
+                    "id": "4694-c6d0-83b1-59fc",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "Point(s)",
+                "typeId": "9893-c379-920b-8982",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 0
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 1
+              },
+              {
+                "name": "Combined Warlord and Lord of War Points",
+                "typeId": "14bd-cad0-cd3d-8b23",
+                "value": 0
+              },
+              {
+                "name": "Mech LB",
+                "typeId": "7275-cbe8-a563-7152",
+                "value": 0
+              },
+              {
+                "name": "Tank Detachments",
+                "typeId": "2cdf-186c-a655-d907",
+                "value": 0
+              },
+              {
+                "name": "ZM Primary Detachment",
+                "typeId": "37ff-b26e-18a9-7f57",
+                "value": 0
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Deffwing",
+                "id": "c870-991a-0b1d-536e",
+                "hidden": false,
+                "typeId": "7c4f-ca47-b489-3125",
+                "typeName": "Detachment Description",
+                "characteristics": [
+                  {
+                    "name": "Detachment Composition",
+                    "$text": "3 Heavy Assault slots (1 Prime)\nAll slots: Meganobz Mob only.\nRequires a Mega Warboss selected in a High Command slot.\nOne Deffwing may be taken instead of the standard Crusade Apex options.\n[NOTE: prerequisite not yet automatically enforced by this experimental catalogue.]",
+                    "typeId": "ec3f-877b-f887-18b2"
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "comment": "Orks (unofficial) catalogue only",
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "ace1-0a77-0e43-0b4a",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "ace1-0a77-0e43-0b4a",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Apex - Dread Mob",
+            "id": "e2be-e1d6-8af1-588b",
+            "hidden": true,
+            "comment": "Orks (unofficial) PDF page 4",
+            "sortIndex": 92,
+            "categoryLinks": [
+              {
+                "name": "Prime War-engine",
+                "id": "2a0f-e659-0106-52e8",
+                "hidden": false,
+                "targetId": "9699-67c9-2c0b-e64b",
+                "constraints": [
+                  {
+                    "id": "c8fc-5923-6847-5fee",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "War-engine",
+                "id": "6cd6-eb45-950c-5d59",
+                "hidden": false,
+                "targetId": "2499-7239-685f-8465",
+                "constraints": [
+                  {
+                    "id": "4d27-774f-520f-529c",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ]
+              },
+              {
+                "name": "Dread Mob: Support (Killa Kans Only)",
+                "id": "9f2d-b053-78ad-54ee",
+                "hidden": false,
+                "targetId": "356f-600f-b6d7-5612",
+                "constraints": [
+                  {
+                    "id": "8717-9a0d-365f-5e9c",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "Point(s)",
+                "typeId": "9893-c379-920b-8982",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 0
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 1
+              },
+              {
+                "name": "Combined Warlord and Lord of War Points",
+                "typeId": "14bd-cad0-cd3d-8b23",
+                "value": 0
+              },
+              {
+                "name": "Mech LB",
+                "typeId": "7275-cbe8-a563-7152",
+                "value": 0
+              },
+              {
+                "name": "Tank Detachments",
+                "typeId": "2cdf-186c-a655-d907",
+                "value": 0
+              },
+              {
+                "name": "ZM Primary Detachment",
+                "typeId": "37ff-b26e-18a9-7f57",
+                "value": 0
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Dread Mob",
+                "id": "0d74-f5e9-7dd1-5e07",
+                "hidden": false,
+                "typeId": "7c4f-ca47-b489-3125",
+                "typeName": "Detachment Description",
+                "characteristics": [
+                  {
+                    "name": "Detachment Composition",
+                    "$text": "4 War-engine slots (1 Prime)\n2 Support slots (Killa Kan Mob only).\nRequires a Kustom Meka-dread selected in a High Command slot.\nOne Dread Mob may be taken instead of the standard Crusade Apex options.\n[NOTE: prerequisite not yet automatically enforced by this experimental catalogue.]",
+                    "typeId": "ec3f-877b-f887-18b2"
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "comment": "Orks (unofficial) catalogue only",
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "ace1-0a77-0e43-0b4a",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "ace1-0a77-0e43-0b4a",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Auxiliary - Boss's Bodyguard",
+            "id": "498e-bded-bb77-5643",
+            "hidden": true,
+            "comment": "Orks (unofficial) PDF page 4",
+            "sortIndex": 93,
+            "categoryLinks": [
+              {
+                "name": "Retinue",
+                "id": "ee8d-3df4-7fdc-56af",
+                "hidden": false,
+                "targetId": "a38e-50ff-310f-f19e",
+                "constraints": [
+                  {
+                    "id": "b225-d3a4-d6ca-579b",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Elites",
+                "id": "88a0-5129-ee4f-5e90",
+                "hidden": false,
+                "targetId": "5d5e-958f-e388-50b5",
+                "constraints": [
+                  {
+                    "id": "53bc-2f87-aa45-524a",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Heavy Transport",
+                "id": "da04-1ab1-c09c-511e",
+                "hidden": false,
+                "targetId": "52d0-8b78-439e-18e5",
+                "constraints": [
+                  {
+                    "id": "0be0-f69d-30fa-5944",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "Point(s)",
+                "typeId": "9893-c379-920b-8982",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 1
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 0
+              },
+              {
+                "name": "Combined Warlord and Lord of War Points",
+                "typeId": "14bd-cad0-cd3d-8b23",
+                "value": 0
+              },
+              {
+                "name": "Mech LB",
+                "typeId": "7275-cbe8-a563-7152",
+                "value": 0
+              },
+              {
+                "name": "Tank Detachments",
+                "typeId": "2cdf-186c-a655-d907",
+                "value": 0
+              },
+              {
+                "name": "ZM Primary Detachment",
+                "typeId": "37ff-b26e-18a9-7f57",
+                "value": 0
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Boss's Bodyguard",
+                "id": "349b-350d-05e7-584d",
+                "hidden": false,
+                "typeId": "7c4f-ca47-b489-3125",
+                "typeName": "Detachment Description",
+                "characteristics": [
+                  {
+                    "name": "Detachment Composition",
+                    "$text": "1 Retinue, 1 Elites and 1 Heavy Transport slot.\nCounts as a normal Auxiliary Detachment from a Command choice.",
+                    "typeId": "ec3f-877b-f887-18b2"
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "comment": "Orks (unofficial) catalogue only",
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "ace1-0a77-0e43-0b4a",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "ace1-0a77-0e43-0b4a",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Auxiliary - Green Tide",
+            "id": "9912-29ad-3f96-5fce",
+            "hidden": true,
+            "comment": "Orks (unofficial) PDF page 4",
+            "sortIndex": 94,
+            "categoryLinks": [
+              {
+                "name": "Prime Troops",
+                "id": "773e-470e-6424-5c06",
+                "hidden": false,
+                "targetId": "c3f9-a7f3-984b-3fda",
+                "constraints": [
+                  {
+                    "id": "5026-cba8-1708-5eb9",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Troops",
+                "id": "85b2-9b30-1bf1-5f84",
+                "hidden": false,
+                "targetId": "88e6-d373-4152-0dd8",
+                "constraints": [
+                  {
+                    "id": "c833-a668-3906-5868",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  }
+                ]
+              },
+              {
+                "name": "Prime Support",
+                "id": "97e2-e70c-2a9e-5bed",
+                "hidden": false,
+                "targetId": "1c79-ecdf-9a64-84c9",
+                "constraints": [
+                  {
+                    "id": "4949-948e-34f9-5017",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Support",
+                "id": "78e3-6ec8-d62c-515c",
+                "hidden": false,
+                "targetId": "345f-9ba6-9b02-ed5c",
+                "constraints": [
+                  {
+                    "id": "b0a0-7103-0118-5550",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "Point(s)",
+                "typeId": "9893-c379-920b-8982",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 1
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 0
+              },
+              {
+                "name": "Combined Warlord and Lord of War Points",
+                "typeId": "14bd-cad0-cd3d-8b23",
+                "value": 0
+              },
+              {
+                "name": "Mech LB",
+                "typeId": "7275-cbe8-a563-7152",
+                "value": 0
+              },
+              {
+                "name": "Tank Detachments",
+                "typeId": "2cdf-186c-a655-d907",
+                "value": 0
+              },
+              {
+                "name": "ZM Primary Detachment",
+                "typeId": "37ff-b26e-18a9-7f57",
+                "value": 0
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Green Tide",
+                "id": "e8b1-53f2-cff1-52c8",
+                "hidden": false,
+                "typeId": "7c4f-ca47-b489-3125",
+                "typeName": "Detachment Description",
+                "characteristics": [
+                  {
+                    "name": "Detachment Composition",
+                    "$text": "3 Troops slots (1 Prime)\n3 Support slots (1 Prime).\nCounts as a normal Auxiliary Detachment from a Command choice.",
+                    "typeId": "ec3f-877b-f887-18b2"
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "comment": "Orks (unofficial) catalogue only",
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "ace1-0a77-0e43-0b4a",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "ace1-0a77-0e43-0b4a",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Auxiliary - Kult of Speed",
+            "id": "d937-5409-fde1-5af3",
+            "hidden": true,
+            "comment": "Orks (unofficial) PDF page 4",
+            "sortIndex": 95,
+            "categoryLinks": [
+              {
+                "name": "Prime Fast Attack",
+                "id": "8c41-2a55-56d1-53aa",
+                "hidden": false,
+                "targetId": "c291-144b-3da6-37ed",
+                "constraints": [
+                  {
+                    "id": "c4e3-f5f9-8088-55be",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Fast Attack",
+                "id": "a458-d2a6-d5c4-5ceb",
+                "hidden": false,
+                "targetId": "cf96-8891-3f9a-8921",
+                "constraints": [
+                  {
+                    "id": "bd31-7b10-aa69-5950",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Heavy Transport",
+                "id": "334d-9a3a-9cb7-5ccb",
+                "hidden": false,
+                "targetId": "52d0-8b78-439e-18e5",
+                "constraints": [
+                  {
+                    "id": "2573-35d6-76f9-59d4",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Kult of Speed: Recon (Deffkoptas Only)",
+                "id": "d2bd-7bb8-2cbc-57cc",
+                "hidden": false,
+                "targetId": "986c-1fe8-5536-55da",
+                "constraints": [
+                  {
+                    "id": "a0eb-90b4-c8c9-5c84",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "Point(s)",
+                "typeId": "9893-c379-920b-8982",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 1
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 0
+              },
+              {
+                "name": "Combined Warlord and Lord of War Points",
+                "typeId": "14bd-cad0-cd3d-8b23",
+                "value": 0
+              },
+              {
+                "name": "Mech LB",
+                "typeId": "7275-cbe8-a563-7152",
+                "value": 0
+              },
+              {
+                "name": "Tank Detachments",
+                "typeId": "2cdf-186c-a655-d907",
+                "value": 0
+              },
+              {
+                "name": "ZM Primary Detachment",
+                "typeId": "37ff-b26e-18a9-7f57",
+                "value": 0
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Kult of Speed",
+                "id": "d402-d6bc-35b4-5484",
+                "hidden": false,
+                "typeId": "7c4f-ca47-b489-3125",
+                "typeName": "Detachment Description",
+                "characteristics": [
+                  {
+                    "name": "Detachment Composition",
+                    "$text": "2 Fast Attack slots (1 Prime)\n1 Heavy Transport slot\n1 Recon slot (Deffkoptas only).\nRequires Big Mek or Big Mek on Warbike selected in a Command slot (Mega Big Mek does not qualify).\nOne Kult of Speed may be taken instead of normal Crusade Auxiliary options.\n[NOTE: prerequisite not yet automatically enforced by this experimental catalogue.]",
+                    "typeId": "ec3f-877b-f887-18b2"
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "comment": "Orks (unofficial) catalogue only",
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "ace1-0a77-0e43-0b4a",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "ace1-0a77-0e43-0b4a",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
