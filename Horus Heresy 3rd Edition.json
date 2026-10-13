@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
     "battleScribeVersion": 2.03,
-    "revision": 58,
+    "revision": 62,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -91508,7 +91508,7 @@
             "name": "Apex - Deffwing",
             "id": "08ae-2780-2056-5859",
             "hidden": true,
-            "comment": "Orks (unofficial) PDF page 4",
+            "comment": "Orks PDF p4. Specialist Prime slots use Prime Unit upgrades. Clan and unlock restrictions require in-app validation.",
             "sortIndex": 91,
             "categoryLinks": [
               {
@@ -91638,7 +91638,7 @@
             "name": "Apex - Dread Mob",
             "id": "e2be-e1d6-8af1-588b",
             "hidden": true,
-            "comment": "Orks (unofficial) PDF page 4",
+            "comment": "Orks PDF p4. Specialist Prime slots use Prime Unit upgrades. Clan and unlock restrictions require in-app validation.",
             "sortIndex": 92,
             "categoryLinks": [
               {
@@ -91784,7 +91784,7 @@
             "name": "Auxiliary - Boss's Bodyguard",
             "id": "498e-bded-bb77-5643",
             "hidden": true,
-            "comment": "Orks (unofficial) PDF page 4",
+            "comment": "Orks PDF p4. Specialist Prime slots use Prime Unit upgrades. Clan and unlock restrictions require in-app validation.",
             "sortIndex": 93,
             "categoryLinks": [
               {
@@ -91930,7 +91930,7 @@
             "name": "Auxiliary - Green Tide",
             "id": "9912-29ad-3f96-5fce",
             "hidden": true,
-            "comment": "Orks (unofficial) PDF page 4",
+            "comment": "Orks PDF p4. Specialist Prime slots use Prime Unit upgrades. Clan and unlock restrictions require in-app validation.",
             "sortIndex": 94,
             "categoryLinks": [
               {
@@ -92092,7 +92092,7 @@
             "name": "Auxiliary - Kult of Speed",
             "id": "d937-5409-fde1-5af3",
             "hidden": true,
-            "comment": "Orks (unofficial) PDF page 4",
+            "comment": "Orks PDF p4. Specialist Prime slots use Prime Unit upgrades. Clan and unlock restrictions require in-app validation.",
             "sortIndex": 95,
             "categoryLinks": [
               {
